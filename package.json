@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "t-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,19 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
-    "@fortawesome/free-brands-svg-icons": "^6.5.1",
-    "@fortawesome/free-solid-svg-icons": "^6.5.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "animate.css": "^4.1.1",
-    "gsap-trial": "^3.12.4",
-    "loaders.css": "^0.1.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1",
-    "react-loaders": "^3.0.1",
-    "react-router-dom": "^6.21.1",
-    "sass": "^1.69.7"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
