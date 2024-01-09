@@ -1,11 +1,13 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import {Navbar, Header} from './components/index'
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Header />
+
     </>
   )
 }
