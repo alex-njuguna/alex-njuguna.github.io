@@ -54,10 +54,18 @@ a.active, a:focus {
 }
 .card-title {
     text-align: center;
+    color: orangered;
 }
 .card:hover .servicesIcon {
     color: #008000;
 }
+
+.card:hover {
+    border: 1px solid #ccc;
+    letter-spacing: 0.1px;
+    transition: border 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+}
+
 .servicesText:hover {
     border: 1px solid #008000;
 }
