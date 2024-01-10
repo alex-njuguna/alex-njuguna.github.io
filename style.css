@@ -1,3 +1,11 @@
+.mybackground {
+    position: relative;
+    background: url(images/milky.png) no-repeat;
+    background-size: cover;
+    height: 90%;
+    background-position: center;
+}
+
 a {
     letter-spacing: 0.6px;
     text-transform: uppercase;
@@ -6,21 +14,33 @@ a {
     margin-right: 30px;
 }
 
-a.active, a:focus {
+a:focus {
     border-top: 2px solid orange;
     letter-spacing: 1.5px;
+}
+
+a:hover {
+    color: orangered !important;
 }
 
 h1 {
     text-decoration: underline;
     text-transform: uppercase;
+    color: aliceblue;
 }
 
 .bgimage {
-    background-image: url(images/background.avif);
+    background-image: url(images/background.jpg);
     height: 75vh;
+    width: 100%;
     background-size: cover;
     position: relative;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: none;
 }
 
 /* text css above hero image*/
