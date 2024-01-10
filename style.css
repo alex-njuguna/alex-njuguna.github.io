@@ -11,6 +11,11 @@ a.active, a:focus {
     letter-spacing: 1.5px;
 }
 
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 .bgimage {
     background-image: url(images/background.avif);
     height: 75vh;
