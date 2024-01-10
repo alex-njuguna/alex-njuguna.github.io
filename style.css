@@ -1,13 +1,27 @@
-/* hero background image */
-.bgimage {
-    height:100vh;
-    background: url('images/heroImage.webp');
-    background-size:cover;
-    position:relative;
+a {
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 30px;
 }
+
+a.active, a:focus {
+    border-top: 2px solid orange;
+    letter-spacing: 1.5px;
+}
+
+.bgimage {
+    background-image: url(images/background.avif);
+    height: 75vh;
+    background-size: cover;
+    position: relative;
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    color: orange;
 }
 .hero_desc {
     font-size: 2rem;

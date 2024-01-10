@@ -1,0 +1,22 @@
+.header-wrapper {
+  position: relative;
+  background: url(./assets/background.gif) no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
