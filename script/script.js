@@ -36,6 +36,6 @@ window.onload = function () {
     }
 
     // Call the typing function for title and description
-    typeWriter("Hi, it's me Alex", "typed-title", 100);
+    typeWriter("Hi, it's me Alex", "typed-title", 50);
     typeWriter("I am a professional software Developer in Nairobi.", "typed-desc", 100);
 };

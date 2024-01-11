@@ -147,3 +147,8 @@ h1 {
 #contact {
     padding-bottom: 4rem;
 }
+
+.card-title .card-text > a {
+    text-decoration: none;
+    color: orange !important;
+}
