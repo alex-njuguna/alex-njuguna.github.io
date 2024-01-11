@@ -19,20 +19,23 @@ function clearForm() {
 }
 
 // Function to simulate typing effect
-function typeWriter(text, elementId, speed) {
-    let i = 0;
-    const element = document.getElementById(elementId);
-    element.innerHTML = ''; // Clear existing content
-    const typingInterval = setInterval(function () {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-        } else {
-            clearInterval(typingInterval);
-        }
-    }, speed);
-}
+window.onload = function () {
+    // Function to simulate typing effect
+    function typeWriter(text, elementId, speed) {
+        let i = 0;
+        const element = document.getElementById(elementId);
+        element.innerHTML = ''; // Clear existing content
+        const typingInterval = setInterval(function () {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);
+                i++;
+            } else {
+                clearInterval(typingInterval);
+            }
+        }, speed);
+    }
 
-// Call the typing function for title and description
-typeWriter("Hi, it's me Alex", "typed-title", 100);
-typeWriter("I am a professional software Developer in Nairobi", "typed-desc", 100);
+    // Call the typing function for title and description
+    typeWriter("Hi, it's me Alex", "typed-title", 100);
+    typeWriter("I am a professional software Developer in Nairobi.", "typed-desc", 100);
+};
