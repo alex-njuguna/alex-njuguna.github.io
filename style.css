@@ -1,6 +1,6 @@
 .mybackground {
     position: relative;
-    background: url(images/milky.png) no-repeat;
+/*     background: url(images/milky.png) no-repeat; */
     background-size: cover;
     height: 90%;
     background-position: center;
@@ -32,7 +32,7 @@ h1 {
 /* main banner */
 .bgimage {
     position: relative;
-    height: 75vh;
+    height: 100vh;
     color: white;
 }
 
