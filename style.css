@@ -104,10 +104,24 @@ video {
     color: #008000;
 }
 
+#services .card {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease-in-out;
+}
+
+#portfolio .card {
+    background-color: #4e4a4a;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(165, 39, 39, 0.5);
+    transition: transform 0.1s ease-in-out;
+}
+
 .card:hover {
     border: 1px solid #ccc;
-    letter-spacing: 0.1px;
-    transition: border 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+    transform: scale(1.05);
 }
 
 .servicesText:hover {
@@ -128,8 +142,14 @@ video {
     font-size: 36px;
     cursor: pointer;
 }
+
+.social-icons:hover a {
+    transform: scale(1.4);
+}
+
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #008000;
+    transform: scale(1.4);
 }
 .fab {
     color: #000000;
@@ -149,4 +169,6 @@ video {
 #contact {
     padding-bottom: 4rem;
 }
+
+
 
