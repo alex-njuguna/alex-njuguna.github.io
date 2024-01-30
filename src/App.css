@@ -354,6 +354,8 @@ h2 {
 }
 .portfolio--section--img > iframe {
   width: 100%;
+  border-radius: 5px;
+  border: none;
 }
 .portfolio--section--card {
   display: flex;
@@ -364,6 +366,7 @@ h2 {
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  padding: 8px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
