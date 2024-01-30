@@ -765,3 +765,16 @@ input[type="checkbox"] {
 }
 
 /* Responsive Screens Ends*/
+
+@keyframes slideInFromRight {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+.about-me-description {
+  animation: slideInFromRight 1s ease-out;
+}

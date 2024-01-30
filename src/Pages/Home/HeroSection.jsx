@@ -12,12 +12,10 @@ export default function HeroSection() {
             <br />
             Developer
           </h1>
-          <div>
-            <Link to="Contact">
-              <button className="btn btn-primary">Get In Touch</button>
-            </Link>
-          </div>
-          <p className="hero--section-description">
+          <Link to="Contact">
+            <button className="btn btn-primary">Get In Touch</button>
+          </Link>
+          <p className="hero--section-description" style={{ fontSize: "1rem" }}>
             <ReactTyped
               strings={[
                 "Versatile developer crafting efficient solutions with creativity and precision.",
@@ -26,16 +24,18 @@ export default function HeroSection() {
               typeSpeed={100}
               loop
               backSpeed={20}
-              cursorChar=">"
+              cursorChar="+"
               showCursor={true}
             />
           </p>
         </div>
-        <br />
       </div>
-
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img
+          style={{ borderRadius: "10px", boxShadow: "5px 5px 10px" }}
+          src="./img/hero-img.jpg"
+          alt="Hero Section"
+        />
       </div>
     </section>
   );
