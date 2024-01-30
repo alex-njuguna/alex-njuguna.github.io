@@ -776,5 +776,5 @@ input[type="checkbox"] {
 }
 
 .about-me-description {
-  animation: slideInFromRight 1s ease-out;
+  animation: slideInFromRight 2s ease-out;
 }
