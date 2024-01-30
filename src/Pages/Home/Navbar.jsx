@@ -45,7 +45,7 @@ function Navbar() {
           to="heroSection"
           className="navbar--content"
         >
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.svg" alt="Logo" />
         </Link>
       </div>
       <a
@@ -80,10 +80,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="AboutMe"
               className="navbar--content"
             >
-              Portfolio
+              About Me
             </Link>
           </li>
           <li>
@@ -94,10 +94,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              About Me
+              Portfolio
             </Link>
           </li>
           <li>
