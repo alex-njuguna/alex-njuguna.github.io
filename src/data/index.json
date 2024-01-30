@@ -10,25 +10,25 @@
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Building robust server-side applications, databases, and APIs, ensuring seamless functionality."
+      "description": "Resilient server applications, databases, and APIs."
     },
     {
       "id": "3",
       "src": "./img/agile.jpg",
       "title": "Agile Development",
-      "description": "Iterative, collaborative approach to software development, emphasizing adaptability, customer feedback, and continuous improvement."
+      "description": "Iterative, collaborative software development with adaptability."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": " Creating engaging and optimized user interfaces."
+      "description": " Engaging and optimized user interfaces."
     },
     {
       "id": "5",
       "src": "./img/feather-pen-1.png",
       "title": "Databases",
-      "description": "Designing and managing structured data systems for efficient storage, retrieval, and manipulation."
+      "description": "Structuring data for storage efficiency"
     },
     {
       "id": "6",
