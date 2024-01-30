@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import { ReactTyped } from "react-typed";
 
 export default function HeroSection() {
   return (
@@ -11,16 +12,28 @@ export default function HeroSection() {
             <br />
             Developer
           </h1>
+          <div>
+            <Link to="Contact">
+              <button className="btn btn-primary">Get In Touch</button>
+            </Link>
+          </div>
           <p className="hero--section-description">
-            Versatile developer crafting efficient solutions with creativity and
-            precision. Team player.
+            <ReactTyped
+              strings={[
+                "Versatile developer crafting efficient solutions with creativity and precision.",
+                "Team player.",
+              ]}
+              typeSpeed={100}
+              loop
+              backSpeed={20}
+              cursorChar=">"
+              showCursor={true}
+            />
           </p>
         </div>
         <br />
-        <Link to="Contact">
-          <button className="btn btn-primary">Get In Touch</button>
-        </Link>
       </div>
+
       <div className="hero--section--img">
         <img src="./img/hero_img.png" alt="Hero Section" />
       </div>
