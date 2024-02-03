@@ -26,7 +26,7 @@ export default function AboutMe() {
               <ReactTyped
                 strings={[
                   "Dedicated software engineer with 5+ years in tech. Proficient in Python, JavaScript, and problem-solving. Applied Computer Science graduate, honing analytical and coding skills.",
-                  "Contributed to diverse projects, optimizing databases, and designing software solutions for operational efficiency. Fitness enthusiast, book lover, and coding advocate in local schools.",
+                  "Contributed to diverse projects, optimizing databases, and designing software solutions for operational efficiency.", "Fitness enthusiast, book lover, and coding advocate in local schools.",
                   "Committed to innovative solutions, aspiring for a positive impact. Eager for challenges, dedicated to growth. Driven, passionate, and ready to learn from every experience.",
                 ]}
                 typeSpeed={100}
