@@ -156,7 +156,9 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Alex</p>
+        <p className="footer--content">
+          "With hard work all things increase and grow."
+        </p>
         <p style={{ fontWeight: "bold", marginTop: "1rem" }}>
           copyright &copy; {date.getFullYear()}
         </p>
