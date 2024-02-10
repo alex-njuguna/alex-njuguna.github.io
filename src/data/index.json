@@ -62,7 +62,7 @@
       "id": "2",
       "src": "https://www.youtube.com/embed/8Nbfii55k-Y?si=PQK0L84G9tCG_hcY",
       "title": "Farmers Market",
-      "description": "An E-Commerce that facilitates buying and selling of farm produce and input. \nAllows for authentication, adverstising products, search products, shopping through use of a cart and process payment with Mpesa",
+      "description": "An E-Commerce that facilitates buying and selling of farm produce and input. \nAllows for authentication, advertising products, search products, shopping through use of a cart and process payment with Mpesa",
       "technologies":["Python",   "Bootstrap", "HTML", "SQLite", "CSS", "Mpesa"],
       "link": "https://github.com/alex-njuguna/Farmers-Market-Ecommerce"
     },
