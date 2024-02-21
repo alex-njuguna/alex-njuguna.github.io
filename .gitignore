@@ -23,5 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-/node_modules
-/src/data/index.json
+*.json
