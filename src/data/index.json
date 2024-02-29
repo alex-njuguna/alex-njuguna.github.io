@@ -95,6 +95,14 @@
         "Tailwind"
       ],
       "link": "https://github.com/alex-njuguna/redux-redux-toolkit/tree/main/redux-store"
+    },
+    {
+      "id": "4",
+      "src": "https://www.youtube.com/embed/vyi8mHvUDLA?si=0hNlg42f72duGnDu",
+      "title": "movie app",
+      "description": "A simulation of a movie app that allows for filtering on category and viewing trailers.\nData and which constitutes images and trailer links are real",
+      "technologies": ["JavaScript", "ReactJS", "HTML", "Bootstrap", "CSS"],
+      "link": "https://github.com/alex-njuguna/movie-app.git"
     }
   ],
   "testimonial": [
