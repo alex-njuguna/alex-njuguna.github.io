@@ -17,7 +17,7 @@ function Footer() {
             to="heroSection"
             className="text-md"
           >
-            <img src="./img/logo.svg" alt="Logoipsum" />
+            <img src="./img/logo.svg" alt="Logoipsum" style={{width: "30px"}}/>
           </Link>
         </div>
         <div className="footer--items">
