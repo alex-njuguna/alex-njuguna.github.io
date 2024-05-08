@@ -53,7 +53,7 @@ export default function MyPortfolio() {
             </div>
             <div className="portfolio--section--card--content">
               <div>
-                <h3 className="portfolio--section--title" style={{color: 'crimson', marginBottom: '1rem', textDecoration: 'underline'}}>{item.title}</h3>
+                <h3 className="portfolio--section--title text-capitalize" style={{color: 'crimson', marginBottom: '1rem', textDecoration: 'underline'}}>{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
               <div className="technologies fs-6">
