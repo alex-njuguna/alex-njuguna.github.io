@@ -7,11 +7,11 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Alex</p>
-          <h1 className="hero--section--title">
+          <h5 className="hero--section--title"  style={{fontSize: '3rem', fontWeight:'normal'}}>
             <span className="hero--section-title--color">Full Stack</span>{" "}
             <br />
             Developer
-          </h1>
+          </h5>
           <Link to="Contact">
             <button className="btn btn-primary">Get In Touch</button>
           </Link>

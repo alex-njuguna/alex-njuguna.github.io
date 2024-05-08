@@ -17,11 +17,11 @@ export default function AboutMe() {
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
           <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="skills-section--heading" style={{fontSize: '2rem', fontWeight:'normal'}}>About Me</h1>
           <div className="about-me-description">
             <p
               className="hero--section-description"
-              style={{ marginBottom: "3rem", color: "#373d3f" }}
+              style={{ marginBottom: "2rem", color: "#373d3f", fontSize: "1.2rem" }}
             >
               <ReactTyped
                 strings={[
