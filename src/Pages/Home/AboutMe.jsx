@@ -25,8 +25,8 @@ export default function AboutMe() {
             >
               <ReactTyped
                 strings={[
-                  "5+ years in tech. Full Stack devloper(backend heavy).", 
-                  "B.Sc.(Applied Computer Science), \nB.Sc.(Software Engineering)",
+                  "5+ years in tech - Full Stack developer(backend heavy).", 
+                  "B.Sc.(Applied Computer Science), B.Sc.(Software Engineering)",
                   "Contributed to diverse open source projects.", 
                   "Fitness enthusiast, book lover, tech advocate and educator.",
                   "Champions innovative solutions.",
