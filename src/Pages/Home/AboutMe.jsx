@@ -25,14 +25,13 @@ export default function AboutMe() {
             >
               <ReactTyped
                 strings={[
-                  "Dedicated software engineer with 5+ years in tech. Proficient in Python, JavaScript, and problem-solving. Applied Computer Science graduate, honing analytical and coding skills.",
-                  "Contributed to diverse projects, optimizing databases, and designing software solutions for operational efficiency.", "Fitness enthusiast, book lover, and coding advocate in local schools.",
-                  "Committed to innovative solutions, aspiring for a positive impact. Eager for challenges, dedicated to growth. Driven, passionate, and ready to learn from every experience.",
+                  "5+ years in tech. Full Stack devloper(backend heavy).", "B.Sc.(Applied Computer Science) - Kisii University, B.Sc.(Software Engineering) - ALX SE School",
+                  "Contributed to diverse open source projects.", "Fitness enthusiast, book lover, and coding advocate in local schools.",
+                  "Committed to innovative solutions.",
                 ]}
                 typeSpeed={100}
-                loop
                 backSpeed={20}
-                cursorChar="+"
+                cursorChar="_"
                 showCursor={true}
               />
             </p>

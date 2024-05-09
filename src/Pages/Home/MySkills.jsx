@@ -11,7 +11,7 @@ export default function MySkills() {
         <div className="row">
         {data?.skills?.map((item, index) => (
           <div className="col-md-3">
-          <div key={index} className="skills--section--card">
+          <div key={index} className="skills--section--card card m-2">
             <div className="skills--section--img">
               <img src={item.src} alt="Product Chain" />
             </div>

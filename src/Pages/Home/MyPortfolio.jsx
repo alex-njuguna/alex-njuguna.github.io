@@ -37,7 +37,7 @@ export default function MyPortfolio() {
         <div className="row">
           {data?.portfolio?.map((item, index) => (
           <div className="col-md-3">
-          <div key={index} className="card">
+          <div key={index} className="card m-2">
             <div className="portfolio--section--img">
               <iframe
                 src={item.src}
@@ -53,8 +53,8 @@ export default function MyPortfolio() {
             </div>
             <div className="portfolio--section--card--content">
               <div>
-                <h3 className="portfolio--section--title text-capitalize" style={{color: 'crimson', marginBottom: '1rem', textDecoration: 'underline'}}>{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <h3 className="portfolio--section--title text-capitalize" style={{marginBottom: '0.5rem'}}>{item.title}</h3>
+                {/* <p className="text-md">{item.description}</p> */}
               </div>
               <div className="technologies fs-6">
                 {item.technologies.map((technology) => (
