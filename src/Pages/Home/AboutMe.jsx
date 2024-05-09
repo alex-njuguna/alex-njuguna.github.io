@@ -25,9 +25,11 @@ export default function AboutMe() {
             >
               <ReactTyped
                 strings={[
-                  "5+ years in tech. Full Stack devloper(backend heavy).", "B.Sc.(Applied Computer Science) - Kisii University, B.Sc.(Software Engineering) - ALX SE School",
-                  "Contributed to diverse open source projects.", "Fitness enthusiast, book lover, and coding advocate in local schools.",
-                  "Committed to innovative solutions.",
+                  "5+ years in tech. Full Stack devloper(backend heavy).", 
+                  "B.Sc.(Applied Computer Science), \nB.Sc.(Software Engineering)",
+                  "Contributed to diverse open source projects.", 
+                  "Fitness enthusiast, book lover, tech advocate and educator.",
+                  "Champions innovative solutions.",
                 ]}
                 typeSpeed={100}
                 backSpeed={20}
