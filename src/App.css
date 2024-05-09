@@ -157,7 +157,7 @@ h2 {
   padding: 15px 40px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -439,7 +439,7 @@ h2 {
 /* Testimonial Ends */
 .contact--section {
   display: flex;
-  padding: 150px 85px;
+  padding: 150px 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
