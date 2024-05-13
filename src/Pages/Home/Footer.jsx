@@ -151,6 +151,9 @@ function Footer() {
                 </svg>
               </a>
             </li>
+            <li>
+              +254727433148
+            </li>
           </ul>
         </div>
       </div>
