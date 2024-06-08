@@ -3,7 +3,7 @@ import data from "../../data/index.json";
 export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
-      <div className="portfolio--container">
+      <div style={{paddingLeft: '100px', paddingRight:'80px'}} className="portfolio--container text-center" >
         <p className="section--title">My Skills</p>
         <h2 className="skills--section--heading" style={{fontSize: '2rem', fontWeight:'normal'}}>My Expertise</h2>
       </div>

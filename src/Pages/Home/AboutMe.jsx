@@ -2,7 +2,8 @@ import { ReactTyped } from "react-typed";
 
 export default function AboutMe() {
   return (
-    <section id="AboutMe" className="about--section">
+    <div style={{paddingLeft: '100px', paddingRight: '80px'}}>
+      <section id="AboutMe" className="about--section">
       <div className="about--section--img">
         <img
           src="./img/about-me.jpg"
@@ -41,5 +42,7 @@ export default function AboutMe() {
         </div>
       </div>
     </section>
+    </div>
+    
   );
 }

@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import React from "react";
 
 function Footer() {
   const date = new Date();
@@ -17,7 +16,7 @@ function Footer() {
             to="heroSection"
             className="text-md"
           >
-            <img src="./img/logo.svg" alt="Logoipsum" style={{width: "30px"}}/>
+            <img src="./img/logo.jpeg" className="rounded-circle" alt="Logoipsum" style={{width: "30px"}}/>
           </Link>
         </div>
         <div className="footer--items">
@@ -103,7 +102,7 @@ function Footer() {
                   width="32"
                   height="32"
                   fill="currentColor"
-                  class="bi bi-discord"
+                  className="bi bi-discord"
                   viewBox="0 0 16 16"
                 >
                   {" "}
@@ -113,7 +112,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://twitter.com/n_kienjeku"
+                href="https://twitter.com/MADE___NIGGA"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -123,7 +122,7 @@ function Footer() {
                   width="32"
                   height="32"
                   fill="currentColor"
-                  class="bi bi-twitter"
+                  className="bi bi-twitter"
                   viewBox="0 0 16 16"
                 >
                   {" "}
@@ -143,7 +142,7 @@ function Footer() {
                   width="32"
                   height="32"
                   fill="currentColor"
-                  class="bi bi-linkedin"
+                  className="bi bi-linkedin"
                   viewBox="0 0 16 16"
                 >
                   {" "}
@@ -159,8 +158,8 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">
-          "With hard work all things increase and grow."
+        <p className="footer--content fst-italic">
+          With hard work all things increase and grow.
         </p>
         <p style={{ fontWeight: "bold", marginTop: "1rem" }}>
           copyright &copy; {date.getFullYear()}

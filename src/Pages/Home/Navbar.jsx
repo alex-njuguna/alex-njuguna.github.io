@@ -45,7 +45,7 @@ function Navbar() {
           to="heroSection"
           className="navbar--content"
         >
-          <img src="./img/logo.svg" alt="Logo" style={{width: "30px"}} />
+          <img className="rounded-circle" src="./img/logo.jpeg" alt="Logo" style={{width: "30px"}} />
         </Link>
       </div>
       <a
